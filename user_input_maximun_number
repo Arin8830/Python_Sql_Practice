@@ -1,0 +1,17 @@
+#user input maximum number
+
+def max_num():
+    num=list(map(int,input("Enter the numbers").split()))
+
+    if len(num)==0:
+        print("No number entered")
+        return
+    max_num=num[0]
+    for i in num:
+        
+        if max_num<i:
+            max_num=i
+
+    print(max_num) 
+
+max_num()           

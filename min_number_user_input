@@ -1,0 +1,17 @@
+#user input minimum number
+
+def min_num():
+    num=list(map(int,input("Enter the numbers").split()))
+
+    if len(num)==0:
+        print("No number entered")
+        return
+    min_num=num[0]
+    for i in num:
+        
+        if min_num>i:
+            min_num=i
+
+    print(min_num) 
+
+min_num()           
