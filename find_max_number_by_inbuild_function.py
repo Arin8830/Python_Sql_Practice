@@ -1,4 +1,4 @@
-#find max number
+#find max number by usinf inbuild function
 
 def find_max():
     num=[1,2,3,4,5]
